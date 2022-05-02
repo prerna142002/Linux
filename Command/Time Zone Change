@@ -1,0 +1,2 @@
+To get the information - timedatectl 
+To change the timezone of the server - timedatectl set-timezone <timezone-name>
