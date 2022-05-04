@@ -1,0 +1,12 @@
+useradd <user-name> <flag1> <flag2> <flag3>
+
+flag1:
+-m : to create default home directory for the user.
+
+flag2:
+-s /bin/bash: default shell allowing the user to use the shell which is provided
+
+flag3:
+-g jusers: default user group assignment
+
+
