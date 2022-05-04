@@ -1,0 +1,9 @@
+ssh <user-name>@<server-name>
+# yes
+# type password
+sudo su - : to enter the root.
+id <user-name> : to check whether the user exists or not.
+id <user-name> : to check whether the user exists or not.
+adduser <user-name> -s /sbin/nologin
+id <user-name> : to check whether the user exists or not.
+exit
