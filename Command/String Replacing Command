@@ -10,5 +10,10 @@ Editing the file without opening them.
 2. Perform complex pattern matching
 
 Commands and variation in it:
-1. sed 's/<old-string>/<new-string>/' <file-name>
-2. 
+1. sed 's/<old-string>/<new-string>/' <file-name>  :  only replaces the 1st occurence of the string.
+2. sed 's/<old-string>/<new-string>/k' <file-name>  : only replaces the kth occurence of the word.
+3. sed 's/<old-string>/<new-string>/g' <file-name>  : replaces all the occurences of the string in the file.
+4. sed 's/<old-string>/<new-string>/kg' <file-name>  : replaces all the occurences of the string in the file from kth.
+5. sed 'ks/<old-string>/<new-string>g' <file-name>  : replaces the old string with the new string in kth line.
+6. sed 's/<old-string>//g' <file-name> : removes the string.
+
