@@ -1,0 +1,14 @@
+SED command for 
+1. searching
+2. find
+3. replace
+4. insertion
+5. deletion
+
+Editing the file without opening them. 
+1. Powerful textStream editor, 
+2. Perform complex pattern matching
+
+Commands and variation in it:
+1. sed 's/<old-string>/<new-string>/' <file-name>
+2. 
