@@ -1,0 +1,27 @@
+Piping:
+----------------------------------------------------------------------------------------------------
+Pipeline of commands 
+tr 'a-z' 'A-Z' (convert the small letters into capital letters.
+
+Example where we are piping - ls | grep aab
+rpm -qa : list of the softwares installed on the OS.
+
+Technically to read the number of words we use wc <file-name>.
+
+wc < <file-name> : Technically this is correct because wc dont know how to read the file and count the words in it,
+Ctrl+D : EOF for wc
+to get the word count:
+wc 
+kgjh\
+eoi
+oigj
+(CTRl+D) now it will get over and we will get the results.
+
+
+----------------------------------------------------------------------------------------------------------------------
+TASK
+----------------------------------------------------------------------------------------------------------------------
+EOF : This creates a boundary after which we cannot access the file.
+UseCase of EOF:
+In hardisk many files are there and the security will be hindered when EOF not recognized.
+
