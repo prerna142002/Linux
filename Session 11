@@ -1,0 +1,58 @@
+CLI/GUI - we get teh access to the Operating System.
+local accessing the console/terminal of the OS.
+TO run the command we need to login the OS.
+
+We have to have the local access/physically.
+I need a laptop virtually. OS accessing.
+Run other OS from other PC.
+(Networking Card)
+
+Date command running on which Virtually/locally(local execution).
+Remote Access : To access the OS from other PC.
+
+Data center : 
+
+In networking the host is the PC in the network.
+
+Protocol: The proccess in the networking we need to follow.
+Like: 
+sending the data: SMTP
+Downloading files: FTP
+View Web pages: HTTP
+Secure Shell: SSH
+
+Remote program to run the other machine virtually we need SSH.
+
+
+Prerequisite for SSH : Network Connectivty.
+1. A and B are physically/virtually connected. (End to end connectivity must be present)
+2. Check both A and B have IP Address or not.
+3. Ping to each other to check the connection between them.
+4. Firewalls, Routers etc ... upcoming classes.
+
+No limitations on the device type of A and B.
+
+
+
+--------------------------------------------------------------------------------------------------------------
+LAB
+--------------------------------------------------------------------------------------------------------------
+To run the command on the PC using Mobile Phone
+
+Given:
+Mobile Phone  - Local Host
+Protocol - SSH
+
+Prerequisite:
+1. Mobile Phone connected the laptop? No
+
+Wi-fi card in laptop 
+Hotspot on of mobile then mobile phone becomes the Hub.
+
+Or
+
+Physical wired connetion.
+
+2. Redhat Os system running as Hosted Machine connected to the mobile phone.
+Enable the bridging in VMWare.
+VM aslo has a network card.
