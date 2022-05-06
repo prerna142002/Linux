@@ -32,3 +32,28 @@ grep python => mapping (grep) : total count.
 unalias ls : we can remove the specific color of the file.
 
 With forward slash this is directory.
+Directory starts with letter d.
+
+
+
+REGEX: Regular Expression 
+-------------------------------------------------------------------------------------------------------------
+grep ^d : only those lines where the charcter d comes in the starting of the line.
+grep -n ^d : Shows the lines also.
+grep -v linux <file-name> 
+
+-v : verbose (reverse) lines where there is no word linux.
+
+man <command-name> : the manual of the command we can open and access the syntax of the command.
+
+Sending the output : 
+1. Another File.
+2. Another command.
+
+Output can go to 1 location also.
+
+To send to multiple places then:
+date | tee fz.txt (output sedn to file and output on the screen also).
+
+
+
