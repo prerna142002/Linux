@@ -24,4 +24,6 @@ TASK
 EOF : This creates a boundary after which we cannot access the file.
 UseCase of EOF:
 In hardisk many files are there and the security will be hindered when EOF not recognized.
+Stopping the further reading of the file.
 
+Program on a harddisk which will remove all EOF and replaces with other character.
