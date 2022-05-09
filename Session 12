@@ -12,3 +12,36 @@ The packet is 1st send to the Hotspot then the packet is transferred to the othe
 To get the IP adress of the Vm then ifconfig esp0s3. 
 Then ping both the PCs to check the conencivty status.
 
+To run the command for other Vm: Created personal LAN/Lab.
+ssh <ip-address> <command>
+# then enter the password of that particular VM.
+
+To store the permanent data we nee HARDISK.
+To put the data we need to put inside the FILE and we put the File in the Folder and that FOLDER must be in the hardisk
+It is not possible to create foile without a folder.
+
+File Program: where we write the program that particular folder name is this.
+Execute the program : program then load in the RAM. CPU ill execute the program present in the RAM.
+ COMPUTE UNIT: RAM + CPU combined.
+ STORAGE UNIT: Where the program is stored.
+ 
+ RAM and CPU always retrieve the program from the local storage. So, the program should always be locally present.
+ 
+ SSH is basically nothing but used to access the compute unit of the other end of the connection.
+ 
+ Let us assume that A is the VM on which we have taken SSH access of the B VM.
+ UPLOAD: when we need to transfer 1 file from one A to B.
+ DOWNLOAD: when we want to transfer the file from the B to A.
+ 
+ The protocol used for these is SCP : Secure Copy Protocol used to file transfer in the SSH network connection. ( We can use FTP also).
+ 
+ 
+ PRACTICAL
+ ------------------------------------------------------------------------------------------------------------------------------------------------
+ A : The VM ON which SSH access is taken.
+ B : The VM OF which SSH access is taken.
+ 
+ 
+ To transfer the file from A to B i.e. UPLOAD function : scp <file-name> <ip-address>:/<folder-path>
+ 
+ 
