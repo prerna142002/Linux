@@ -42,6 +42,13 @@ Execute the program : program then load in the RAM. CPU ill execute the program 
  B : The VM OF which SSH access is taken.
  
  
- To transfer the file from A to B i.e. UPLOAD function : scp <file-name> <ip-address>:/<folder-path>
+ To transfer the file from A to B i.e. UPLOAD function : scp <file-name> <ip-address-of-B>:/<folder-path>
+ E.g.: scp my.py 192.168.1.101:/root
  
+ To transfer the file from B to A i.e. DOWNLOAD function : scp <ip-address-of-B>:/<folder-path>/<file-name> /<where-to-copy>/
+ E.g.: scp 192.168.1.101:/root/my.py /root/
+ 
+ To download a folder : scp -r <ip-address>:/<folder-path> /<where-to-copy>/
+ # Now enter the password and it will be executed.
+
  
