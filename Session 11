@@ -80,5 +80,12 @@ TASK
 ----------------------------------------------------------------------------------------------------------
 Run any command on the mobile and we are able to start any graphical program from the remote host/mobile phone. (no display environment present in the system).
 
+ssh -X <ip-address> <GUI-command>
+E.g.: ssh -X 192.168.0.162 firefox
+
+Now we want to launch in B also the GUI not in A (remote host).
+
+
+
 
 
