@@ -1,0 +1,14 @@
+While cloning the VM click the option to:
+reintialise the MAC Address of all the network cards : otherwise will have same Mac Address then difficulty in connectivity.
+
+In virtualization: the host OS is the base OS.
+In host-only mode - then Vms will the connectvity to each other but not to the internet.
+
+In bridge mode- then Vms connected to each other as well as the internet. (limitation - outside wireless hub) (require DHCP technically.)
+Vm network card will gte into the Bridging and go to the IP Addressing.
+Both the VMs shoudl be in the same set-up.
+The packet is 1st send to the Hotspot then the packet is transferred to the other VM.
+
+To get the IP adress of the Vm then ifconfig esp0s3. 
+Then ping both the PCs to check the conencivty status.
+
