@@ -56,3 +56,29 @@ Physical wired connetion.
 2. Redhat Os system running as Hosted Machine connected to the mobile phone.
 Enable the bridging in VMWare.
 VM aslo has a network card.
+
+Bridging Adaptor: Network card connecting of the Virtual Machine. End to End connectivty. 
+By default the Vm connected to NAT we need to change to the Bridge Adaptor. Anyone can connect to the VM.
+
+route -n : ipadress of the mobile phone./devices connected.
+
+bc command for binary calculations.
+The software in mobile phones is called App/Application.
+
+Setting the SSH in mobile phone:
+1. Download the app Termius
+2. Add the IP Address of the Vm.
+3. Add the identity i.e. username and password of the VM.
+Connect and access the VM using mobile phone.
+
+To check the connectivty of the mobile with the VM: ifconfig es0s43
+
+
+
+----------------------------------------------------------------------------------------------------------
+TASK
+----------------------------------------------------------------------------------------------------------
+Run any command on the mobile and we are able to start any graphical program from the remote host/mobile phone. (no display environment present in the system).
+
+
+
