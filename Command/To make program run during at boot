@@ -1,0 +1,4 @@
+Install the program : yum install <name>
+To check the status of the file installed : systemctl status <file-name>
+To start a service : systemctl start <file-name>
+Make it run at the boot : systemctl enable <program-name>
